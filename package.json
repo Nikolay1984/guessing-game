@@ -5,12 +5,13 @@
     "scripts": {
         "test": "mocha -r ./test/setup-mocha.js",
         "start": "webpack-dev-server",
-        "postinstall": "node postinstall.js"
+        "postinstall": "node postinstall.js",
+		"gg": "node ./src/guessing-game.js"
     },
     "author": "",
     "license": "ISC",
     "engines": {
-      "node": "<=10"
+        "node": "<=10"
     },
     "devDependencies": {
         "chai": "^3.5.0",
